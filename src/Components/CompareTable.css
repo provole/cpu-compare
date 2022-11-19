@@ -1,0 +1,29 @@
+.CompareTable {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.CompareTable td{
+  border-right: 1px solid white;
+}
+
+.CompareTableItem {
+  border-bottom: 1px solid white;
+  padding: 20px;
+}
+
+.CompareTableItem:last-child {
+  border-bottom: 0;
+}
+
+.CompareTable > *{
+  color: white;
+}
+
+.hidden {
+  border: 2px solid red;
+}
+
+.display {
+  border: 2px solid white;
+}
